@@ -1,6 +1,6 @@
 [rewrite_local]
 # 登录接口VIP响应重写（匹配目标POST接口）
-^https:\/\/wu18\.cn\/cg\/zhanghao\/ALogOn\.php$ url script-response-body https://raw.githubusercontent.com/yshxqx/j/refs/heads/main/cgjs.js
+^https:\/\/wu18\.cn\/cg\/zhanghao\/ALogOn\.php$ url script-response-body https://raw.githubusercontent.com/yshxqx/j/main/cgjs.js
 
 [mitm]
 hostname = wu18.cn
